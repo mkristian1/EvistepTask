@@ -1,0 +1,19 @@
+@mixin font($s) {
+  @if $s == 12 {
+    font-size: 12px;
+    line-height: 17px;
+  }
+  @if $s == 16 {
+    font-size: 16px;
+    line-height: 24.5px;
+  }
+  @if $s == 18 {
+    font-size: 18px;
+    line-height: 22.63px;
+    font-weight: 400;
+  }
+  @if $s == 20 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}

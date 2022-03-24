@@ -1,0 +1,22 @@
+@import "../../../styles/mixins/index.scss";
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 0px;
+}
+
+.menu-wrap {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    color: var(--mk-black-first);
+}
+
+.menu {
+    display: flex;
+    gap: 34px;
+    list-style-type: none;
+    @include font(18);
+}
