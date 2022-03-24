@@ -1,6 +1,10 @@
+import FirstSection from "./sections/FirstSection";
+
 const Home = () => {
     return (
-        <h1>Home</h1>
+        <>
+            <FirstSection />
+        </>
     )
 }
 

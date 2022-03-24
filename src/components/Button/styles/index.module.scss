@@ -3,7 +3,24 @@
 .button {
     cursor: pointer;
     transition: 0.2s;
-    &_outline {
+    background: none;
+    border: none;
+    &_violet {
+        background-color: var(--mk-violet);
+        height: 49px;
+        display: flex;
+        align-items: center;
+        border-radius: 31px;
+        color: var(--mk-white);
+        font-weight: 600;
+        padding: 0 40px;
+        &:hover {
+            background-color: transparent;
+            border: solid 1px var(--mk-violet);
+            color: inherit;
+        }
+    }
+    &_outline_purple {
         color: var(--mk-black-first);
         background: none;
         border: solid 1px var(--mk-violet);

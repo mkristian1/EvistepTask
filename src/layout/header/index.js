@@ -5,9 +5,9 @@ import styles from './styles/index.module.scss'
 
 const Header = () => {
     return (
-        <header>
+        <header className={styles['header']}>
             <Container>
-                <div className={styles['header']}>
+                <div className={styles['header-wrap']}>
                     <img src={logo} alt="Logo" />
                     <div className={styles['menu-wrap']}>
                         <ul className={styles['menu']}>
@@ -18,7 +18,7 @@ const Header = () => {
                             <li>Download</li>
                             <li>Log in</li>
                         </ul>
-                        <Button>Get Started</Button>
+                        <Button theme='outline_purple'>Get Started</Button>
                     </div>
                 </div>
             </Container>
