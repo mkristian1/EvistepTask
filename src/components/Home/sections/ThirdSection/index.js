@@ -46,9 +46,10 @@ const ThirdSection = () => {
                     </div>
                     <div className={styles['workspace--wrap']}>
                         <div>
-                            {members.map(member => {
+                            {members.map((member, idx) => {
                                 return (
                                     <PermisionsWrap
+                                        key={idx}
                                         {...member}
                                     />
                                 )
