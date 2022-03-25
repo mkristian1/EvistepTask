@@ -1,0 +1,21 @@
+@import "../../../../../styles/mixins/index.scss";
+
+.second-section {
+    background-color: var(--mk-violet-opacity);
+    color: var(--mk-white);
+    padding: 52px;
+}
+
+.permisions {
+    display: flex;
+    align-items: center;
+    gap: 245px;
+    &--title {
+        margin-bottom: 40px;
+        @include font(39);
+    }
+    &--block_border {
+        border: solid 1px var(--mk-text-border);
+        padding: 14px;
+    }
+}

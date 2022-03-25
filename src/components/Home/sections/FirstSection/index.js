@@ -1,7 +1,7 @@
 import { amountReports, billableHours, IconMoney } from '../../../../images';
 import Container from '../../../../layout/container';
 import Button from '../../../Button';
-import styles from './styles/index.module.scss'
+import styles from './styles/index.module.scss';
 
 const FirstSection = () => {
     return (

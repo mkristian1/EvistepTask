@@ -1,0 +1,33 @@
+.permisions-wrap {
+    display: flex;
+    align-items: center;
+    padding: 8px 26px;
+    max-width: 360px;
+    border-left: solid 3px;
+    margin-bottom: 34px;
+    &--desc {
+        margin-top: 15px;
+        margin-bottom: 0;
+    }
+    &_first {
+        border-color: var(--mk-violet);
+    }
+    &_second {
+        border-color: var(--mk-yellow-third);
+    }
+    &_third {
+        border-color: var(--mk-violet-sec);
+    }
+    &_fourth {
+        border-color: var(--mk-green);
+    }
+    &_fifth {
+        border-color: var(--mk-pink);
+    }
+}
+
+.title-wrap {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
