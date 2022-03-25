@@ -1,3 +1,4 @@
+import FifthSection from "./sections/FifthSection";
 import FirstSection from "./sections/FirstSection";
 import FourthSection from "./sections/FourthSection";
 import SecondSection from "./sections/SecondSection";
@@ -10,6 +11,7 @@ const Home = () => {
             <SecondSection />
             <ThirdSection />
             <FourthSection />
+            <FifthSection />
         </>
     )
 }

@@ -1,0 +1,63 @@
+@import "../../../../../styles/mixins/index.scss";
+
+.fifth-section {
+    padding: 130px 0;
+}
+
+.faq {
+    &--title {
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 58px;
+        @include font(39);
+    }
+}
+
+.collapses {
+    max-width: 843px;
+    margin: 0 auto;
+}
+
+.collapse {
+    position: relative;
+    border-top: solid 1px var(--mk-gray-border);
+    border-bottom: solid 1px var(--mk-gray-border);
+    padding: 20px 100px 20px 10px;
+    cursor: pointer;
+    &::after {
+        border-style: solid;
+        border-width: 1.5px 1.5px 0 0;
+        content: "";
+        display: inline-block;
+        height: 10px;
+        position: absolute;
+        top: 34px;
+        transition: 0.5s;
+        transform: rotate(-45deg);
+        width: 10px;
+        right: 20px;
+        &:hover {
+            color: var(--mk-violet);
+        }
+    }
+    &_active {
+        &::after {
+            transform: rotate(134deg);
+        }
+    }
+    &--title {
+        @include font(25);
+        margin-top: 0;
+        margin-bottom: 8px;
+    }
+    &--desc {
+        margin-bottom: 0;
+        max-height: 0;
+        transition: .5s ease-out;
+        overflow: hidden;
+        &_active {
+            max-height: 100px;
+            overflow: initial;
+        }
+    }
+}

@@ -17,6 +17,11 @@
     line-height: 25px;
     font-weight: 600;
   }
+  @if $s == 25 {
+    font-size: 20px;
+    line-height: 34px;
+    font-weight: 600;
+  }
   @if $s == 39 {
     font-size: 39px;
     line-height: 49px;
