@@ -33,3 +33,44 @@
     font-weight: 600;
   }
 }
+
+@mixin laptop-md {
+  @media screen and (max-width: 1460px) {
+    @content;
+  }
+}
+
+@mixin laptop-sm {
+  @media screen and (max-width: 1366px) {
+    @content;
+  }
+}
+
+@mixin laptop-xs {
+  @media screen and (max-width: 1140px) {
+    @content;
+  }
+}
+
+@mixin tablet-lg {
+  @media screen and (max-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin ipad {
+  @media screen and (max-width: 810px) {
+    @content;
+  }
+}
+@mixin tablet-md {
+  @media screen and (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media screen and (max-width: 568px) {
+    @content;
+  }
+}

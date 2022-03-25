@@ -9,6 +9,11 @@
     justify-content: space-between;
     align-items: center;
     padding: 3px 0px;
+    @include tablet-lg {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px 0;
+    }
 }
 
 .menu-wrap {
@@ -16,6 +21,10 @@
     align-items: center;
     gap: 23px;
     color: var(--mk-black-first);
+    @include ipad {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 }
 
 .menu {
@@ -23,4 +32,9 @@
     gap: 34px;
     list-style-type: none;
     @include font(18);
+    @include mobile {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: start;
+    }
 }

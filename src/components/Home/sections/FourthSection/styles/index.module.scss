@@ -19,6 +19,10 @@
     gap: 56px;
     justify-content: center;
     margin-bottom: 40px;
+    flex-wrap: wrap;
+    @include tablet-lg {
+        gap: 10px;
+    }
 }
 
 .block {

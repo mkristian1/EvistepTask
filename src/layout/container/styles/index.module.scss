@@ -1,4 +1,9 @@
+@import "../../../styles/mixins/index.scss";
+
 .container {
     max-width: 1140px;
     margin: 0 auto;
+    @include laptop-xs {
+        padding: 0 20px;
+    }
 }
