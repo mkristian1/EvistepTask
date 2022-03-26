@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/EvistepTask/static/css/main.607d4295.css",
+    "main.js": "/EvistepTask/static/js/main.952304a0.js",
+    "static/media/financialPermisions.svg": "/EvistepTask/static/media/financialPermisions.d7016b327c04232a0cf40faeffb1e6d0.svg",
+    "static/media/billable-hours.svg": "/EvistepTask/static/media/billable-hours.54cc30b353799c23f6face761eded785.svg",
+    "static/media/amountReports.svg": "/EvistepTask/static/media/amountReports.8c4085059db29d744827b56cbcfe7e09.svg",
+    "static/media/executive-manager.svg": "/EvistepTask/static/media/executive-manager.50714d3fcff80b41d65e02ae1aec9a1a.svg",
+    "static/media/logo.svg": "/EvistepTask/static/media/logo.edc704cfc96dabb3250157603157e6ea.svg",
+    "static/media/iconMoney.svg": "/EvistepTask/static/media/iconMoney.a93b6ecd39f82b6ae9e1441ce46b5195.svg",
+    "static/media/IconTimeTracker.svg": "/EvistepTask/static/media/IconTimeTracker.4a76cf9d066b4a2e403c84f4f55e0a3f.svg",
+    "static/media/IconRealTime.svg": "/EvistepTask/static/media/IconRealTime.18155aaa7d1af3c1d524fbf0859c301b.svg",
+    "static/media/IconGenerating.svg": "/EvistepTask/static/media/IconGenerating.6db4d0eaed76368f64fff79ecbc59feb.svg",
+    "static/media/IconExecutiveManager.svg": "/EvistepTask/static/media/IconExecutiveManager.a63e49e962d0d85e07771855f611ee95.svg",
+    "static/media/IconOwner.svg": "/EvistepTask/static/media/IconOwner.dfd206f742f5f8280d26c87d64e18f73.svg",
+    "static/media/IconProjectManager.svg": "/EvistepTask/static/media/IconProjectManager.510511026b7452c963b25b98e8f6151a.svg",
+    "static/media/IconEmployee.svg": "/EvistepTask/static/media/IconEmployee.cc216a59333ed50ec2a7ae64b604617a.svg",
+    "static/media/IconClient.svg": "/EvistepTask/static/media/IconClient.110f0bb14464a87d564850eeeefcf954.svg",
+    "index.html": "/EvistepTask/index.html",
+    "main.607d4295.css.map": "/EvistepTask/static/css/main.607d4295.css.map",
+    "main.952304a0.js.map": "/EvistepTask/static/js/main.952304a0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.607d4295.css",
+    "static/js/main.952304a0.js"
+  ]
+}
